@@ -23,6 +23,7 @@ img {
   margin: 10px 45px;
 }
 .monopoly-credits {
+  align-items: center;
   max-width: 400px;
   margin: 30px auto;
   padding: 20px;
@@ -73,7 +74,6 @@ button {
 
 .disclaimer {
   text-align: justify;
-  display: block;
   max-width: 400px;
   font-size: 14px;
   margin: 20px auto;
