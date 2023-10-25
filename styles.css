@@ -47,6 +47,7 @@ label {
 }
 
 input {
+  font-family: "Montserrat", sans-serif;
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
