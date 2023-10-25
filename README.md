@@ -13,7 +13,9 @@ convertedAmount = monopolyCash * conversionRate
 ```
 
 ## Screenshot
-<img src="assets/readme-screenshots/converter_picture.png" alt="Monopoly Go Logo">
+<p align="center">
+    <img width="300" src="assets/readme-screenshots/converter_picture.png" alt="Monopoly Go Logo">
+</p>
 
 ## Built With
 * HTML
