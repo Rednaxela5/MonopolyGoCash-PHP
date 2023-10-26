@@ -6,6 +6,7 @@ body {
 
 .background-container {
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   width: 100%;
@@ -50,6 +51,7 @@ label {
 
 input {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   width: 95%;
   padding: 10px;
   margin-bottom: 10px;
@@ -97,7 +99,7 @@ button#clear-button {
   text-align: justify;
   max-width: 400px;
   font-size: 14px;
-  margin: 10px auto;
+  margin: 20px auto;
   padding: 20px;
   padding-top: 5px;
   border: 1px solid #ccc;
@@ -122,9 +124,21 @@ footer {
   
 }
 
-footer a {
+a {
   color: #007bff; /* Change link color to white */
   text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+  font-weight: 600; /* Add underline on hover */
+}
+
+a:visited {
+  color: #085db8; /* Change visited link color to white */
+}
+
+a:active {
+  color: #007bff; /* Change active link color to white */
 }
 
 
