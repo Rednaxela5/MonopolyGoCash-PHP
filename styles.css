@@ -135,7 +135,7 @@ footer a {
 }
 
 /* Use media queries to adjust styles for smaller screens */
-@media (max-width: 768px) {
+@media(max-width: 768px) {
   .monopoly-credits {
     max-width: 100%;
     align-items: center;
