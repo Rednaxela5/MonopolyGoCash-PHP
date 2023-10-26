@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   const convertButton = document.getElementById("convert-button");
+  const clearButton = document.getElementById("clear-button");
   const monopolyAmountInput = document.getElementById("monopoly-amount");
   const convertedAmountSpan = document.getElementById("converted-amount");
 
@@ -14,6 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       convertedAmountSpan.textContent = "Invalid input";
     }
+  });
+
+  // click event listener for the Clear button
+  clearButton.addEventListener("click", function() {
+    monopolyAmountInput.value = ""; // clear the input
+    convertedAmountSpan.textContent = "0"; // reset the converted amount
   });
 
   monopolyAmountInput.addEventListener("input", function() {
